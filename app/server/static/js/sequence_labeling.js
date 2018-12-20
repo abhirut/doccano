@@ -7,7 +7,7 @@ Vue.use(require('vue-shortkey'), {
 });
 
 Vue.component('annotator', {
-  template: '<div @click="setSelectedRange">\
+  template: '<div @mouseup="setSelectedRange">\
                     <span class="tagged-text"\
                          v-for="r in chunks"\
                          v-if="id2label[r.label]"\

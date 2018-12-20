@@ -151,7 +151,7 @@ body {
 }
 
 .content .tagged-text {
-  white-space: unset;
+  white-space: pre-wrap;
   height: auto;
 }
 
